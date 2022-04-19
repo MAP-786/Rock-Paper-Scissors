@@ -1,0 +1,77 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+
+}
+
+
+.main
+{
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.top
+{
+    display: flex;
+    background-color: orange;
+    padding:30px;
+    justify-content: center;
+
+    
+}
+.middle
+{
+    background-color: rebeccapurple;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    justify-content: space-around;
+}
+
+.rock,.paper,.scissor 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer
+{
+    display: flex;
+    
+    padding: 50px;
+    background-color: lightgreen;
+    justify-content: space-between;
+
+ 
+    
+    
+}
+
+
+.buttonrock, .buttonpaper, .buttonscissor
+{
+    background-color: red;
+    padding: 15px 100px;
+}
+
+.ComputerClass
+{
+    display:flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.PlayerClass
+{
+    display:flex;
+    align-items: center;
+    gap: 53px;
+}
